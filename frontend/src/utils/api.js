@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://daily-dairy-milk.onrender.com/api',
 });
 
 // Add token to requests
